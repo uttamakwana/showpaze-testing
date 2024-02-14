@@ -1,0 +1,32 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap);
+  padding-block: var(--padding);
+}
+
+.main-header-icon {
+  font-size: clamp(25px, 3vw, 30px);
+}
+
+.bell-icon-dot {
+  width: 10px;
+  height: 10px;
+  background-color: var(--clr-pink);
+  right: 10%;
+}
+
+.main-header-text {
+  font-size: clamp(14px, 2vw, 16px);
+}
+
+.main-header-avatar {
+  height: 40px;
+  width: 40px;
+}
+
+.main-header-avatar img {
+  object-fit: cover;
+  border: 2px solid var(--clr-pink);
+}
